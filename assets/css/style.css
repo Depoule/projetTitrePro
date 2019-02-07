@@ -1,0 +1,76 @@
+*{
+  font-family: "sophie";
+}
+body{
+  background-color: white;
+}
+a{
+  font-size: 1.5em;
+  color: black;
+}
+.foot{
+  font-size: 0.5em;
+}
+.nav-link{
+  color: red;
+}
+.nav-item{
+  color: red;
+}
+/* Footer */
+#footer{
+background:#ccc;
+position:absolute;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:50px;
+}
+.blocred{
+  /* border: 1px solid black; */
+  height: 20rem;
+  text-align: center;
+
+}
+.blocblue{
+  /* border: 1px solid black; */
+  height: 40rem;
+
+}
+.blocgreen{
+  /* border: 1px solid black; */
+  height: 20rem;
+  text-align: center;
+}
+#accueil{
+  margin-top: 10%;
+}
+@font-face{
+  font-family: "sophie";
+  src: url("../fonts/sophie.ttf");
+}
+.soso{
+  width: 70%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+  width: 50%;
+}
+.logo_area{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: "";
+  margin-left: -150px;
+  text-align: center;
+}
+.social{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
